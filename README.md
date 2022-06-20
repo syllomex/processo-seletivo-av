@@ -1,4 +1,4 @@
-### Processo Seletivo AV
+### Processo Seletivo Assessoria VIP
 
 # Lista de repositórios do GitHub
 
