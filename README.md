@@ -39,7 +39,7 @@ Para mais detalhes sobre como gerar um token, acesse o [guia de autenticação c
 - login - corresponde ao nome do usuário no GitHub
 - first - um número que limita a quantidade de repositórios trazidas pela requisição. Por exemplo, se passar um `first: 10`, serão trazidos somente **10 repositórios** na requisição.
 - after - funciona como um offset, sendo o ponto de partida para a listagem dos itens. O **after** deverá ser o valor do **cursor** do último repositório exibido. Ou seja, se o último repositório da lista tiver um cursor equivalente à `"abc"`, a próxima requisição da paginação deverá ser feita com `after: "abc"`<br>
-  _Para mais detalhes sobre a paginação, veja a [documentação do Vue Apollo sobre cursor-based pagination](https://v4.apollo.vuejs.org/guide-composable/pagination.html#cursor-based)_
+  _Para mais detalhes sobre a paginação, veja a [documentação do Vue Apollo sobre pagination](https://apollo.vuejs.org/guide/apollo/pagination.html)_
 
 ```gql
 query ($login: String!, $first: Int!, $after: String) {
@@ -57,8 +57,7 @@ query ($login: String!, $first: Int!, $after: String) {
           id
           name
           description
-          stargazerCount
-          forkCount
+          updatedAt
           primaryLanguage {
             id
             name
