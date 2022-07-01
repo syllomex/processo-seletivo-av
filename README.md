@@ -71,7 +71,7 @@ query ($login: String!, $first: Int!, $after: String) {
 
 ## Sobre a entrega
 
-- Faça um **fork** nesse repositório
+- Clone esse repositório (ou copie o README)
 - Desenvolva seu projeto atualizando seu repositório
 - Envie o link do seu repositório para **maycon@assessoriavip.com.br**
 
