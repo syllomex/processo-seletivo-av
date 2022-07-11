@@ -10,7 +10,7 @@ Nesse projeto você deverá desenvolver um site simples em que seja possível ac
 
 - [ ] Uma barra de pesquisa para acessar a página de um usuário
 - [ ] Uma página do usuário, mostrando suas informações e sua lista de repositórios
-- [ ] A lista de repositórios deverá conter uma paginação com rolagem infinita, ou seja, mais repositórios serão carregados conforme o usuário rola a página para baixo até que não haja mais repositórios (estilo Facebook, Instagram, Twitter, etc.)
+- [ ] **NÃO OBRIGATÓRIO** A lista de repositórios deverá conter uma paginação com rolagem infinita, ou seja, mais repositórios serão carregados conforme o usuário rola a página para baixo até que não haja mais repositórios (estilo Facebook, Instagram, Twitter, etc.)
 - [ ] Possibilidade de favoritar e remover repositórios dos favoritos (utilizar vuex)
 - [ ] Listar repositórios favoritos
 
